@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ArrayFlags_Example' do
+  pod 'ArrayFlags', :path => '../'
+
+  target 'ArrayFlags_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
