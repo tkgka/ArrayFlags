@@ -1,0 +1,16 @@
+PODS:
+  - ArrayFlags (0.1.0)
+
+DEPENDENCIES:
+  - ArrayFlags (from `../`)
+
+EXTERNAL SOURCES:
+  ArrayFlags:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ArrayFlags: 009efdb27610e6282678f5e11724bd91ce1b2c72
+
+PODFILE CHECKSUM: b2f694bb20b0b3a048f24e47204e3ac0a7c9f125
+
+COCOAPODS: 1.11.2
