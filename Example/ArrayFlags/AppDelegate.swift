@@ -22,8 +22,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
           print("you have to give permission to the application")
       }
       createEventTap()
-      let val = ArrayFlag()
-      val.ArrayedFlagNum(Val: 9437448)
+//      let val = ArrayFlag()
+//      val.ArrayedFlagNum(Val: 9437448)
   }
 
   func applicationWillTerminate(_ aNotification: Notification) {

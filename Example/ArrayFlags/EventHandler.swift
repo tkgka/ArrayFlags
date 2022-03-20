@@ -28,10 +28,11 @@ class Wrapper {
 
 
 func handle(event: NSEvent, cgEvent: CGEvent, wrapper: Wrapper, proxy: CGEventTapProxy) -> CGEvent? {
-    if (event.type == .keyUp) {
+    if (event.type == .keyDown) {
         print(event.modifierFlags.rawValue)
-        let val = ArrayFlag()
-        val.ArrayedFlagNum(Val: event.modifierFlags.rawValue)
+        print("GetDictFlags",GetDictFlags(Val: event.modifierFlags.rawValue))
+        print("GetArrayFlags",GetArrayFlags(Val: event.modifierFlags.rawValue))
+        print("GetDictFlagsString",GetDictFlagsString(Val: event.modifierFlags.rawValue))
     }
     
     return cgEvent
