@@ -32,9 +32,9 @@ Parameters:
 Val: Uint value which convert to array type
 
 ```swift
-        print("GetDictFlags",GetDictFlags(Val: NSEvent.modifierFlags.rawValue)) // return Seperated Flag value by Dict type
-        print("GetArrayFlags",GetArrayFlags(Val: NSEvent.modifierFlags.rawValue)) //return arrayed Flag value
-        print("GetDictFlagsString",GetDictFlagsString(Val: NSEvent.modifierFlags.rawValue)) // return pressed key value by Dict type
+print("GetDictFlags",GetDictFlags(Val: NSEvent.modifierFlags.rawValue)) // return Seperated Flag value by Dict type
+print("GetArrayFlags",GetArrayFlags(Val: NSEvent.modifierFlags.rawValue)) //return arrayed Flag value
+print("GetDictFlagsString",GetDictFlagsString(Val: NSEvent.modifierFlags.rawValue)) // return pressed key value by Dict type
 ```        
 ![image](https://user-images.githubusercontent.com/52348220/159162961-72a69a55-4204-40d2-a3ae-844d96fcacf0.png)
 
