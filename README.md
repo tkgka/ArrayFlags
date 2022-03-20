@@ -48,7 +48,7 @@ print("GetDictFlagsString",GetDictFlagsString(Val: NSEvent.modifierFlags.rawValu
 
 ## Author
 
-tkgka, ksh17171@gmail.com![image](https://user-images.githubusercontent.com/52348220/159163483-2cbb9424-0d05-4839-8a43-5267a6443f2f.png)
+tkgka, ksh17171@gmail.com
 
 
 ## License
