@@ -14,7 +14,7 @@ public class ArrayFlag{
     var FlagList:[String:UInt] = ["􁂎":0, "􀆍":0, "􀆕":0, "􀆔":0, "􀆝":0, "FN":0, "Arrow":0]
     public func ArrayedFlagNum(Val:UInt){
         if FlagMaps[Val] != nil {
-            FlagList[FlagMaps[Val]!] != nil ? (FlagList[FlagMaps[Val]!]! = Val) : nil
+            FlagList[FlagMaps[Val]![0]] != nil ? (FlagList[FlagMaps[Val]![0]]! = Val) : nil
         }
         else if Val > 20972032 {
             return
@@ -91,7 +91,7 @@ public func GetDictFlagsString(Val:UInt) -> [String:String]{
     var ReturnArray:[String:String] = [:]
     let ReturnVal = GetArrayFlags(Val: Val)
     for i in ReturnVal{
-        (FlagValMaps[i] != nil && FlagMaps[i] != nil) ? (ReturnArray[FlagMaps[i]!] = FlagValMaps[i]!) : (ReturnArray["?"] = "?")
+        (FlagMaps[i]?[1] != nil && FlagMaps[i]?[0] != nil) ? (ReturnArray[FlagMaps[i]![0]] = FlagMaps[i]![1]) : (ReturnArray["?"] = "?")
     }
     return ReturnArray
     

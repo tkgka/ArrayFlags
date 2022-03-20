@@ -18,7 +18,6 @@
 		C68C8C1FE740B80DE868274806B108DE /* Pods-ArrayFlags_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E561BBC8D5A20A4B3C9E56A3DAB3F850 /* Pods-ArrayFlags_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F95AFDE227E48B03005278FE /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95AFDE127E48B03005278FE /* Main.swift */; };
 		F95AFDE427E48BF5005278FE /* FlagMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95AFDE327E48BF5005278FE /* FlagMaps.swift */; };
-		F987A2C927E60B87002FF5E4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F987A2C827E60B87002FF5E4 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +72,6 @@
 		E561BBC8D5A20A4B3C9E56A3DAB3F850 /* Pods-ArrayFlags_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArrayFlags_Example-umbrella.h"; sourceTree = "<group>"; };
 		F95AFDE127E48B03005278FE /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		F95AFDE327E48BF5005278FE /* FlagMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagMaps.swift; sourceTree = "<group>"; };
-		F987A2C827E60B87002FF5E4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,7 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				F95AFDE127E48B03005278FE /* Main.swift */,
-				F987A2C827E60B87002FF5E4 /* Extension.swift */,
 				F95AFDE327E48BF5005278FE /* FlagMaps.swift */,
 				15E10ADF7BDF4314EE49EE35732D783C /* Pod */,
 				0464B4D7925EE25FDCD3E1E6C2B38F07 /* Support Files */,
@@ -392,7 +389,6 @@
 				F95AFDE427E48BF5005278FE /* FlagMaps.swift in Sources */,
 				F95AFDE227E48B03005278FE /* Main.swift in Sources */,
 				7F3F9D2773B5BB2FEDC21D36B5520162 /* ArrayFlags-dummy.m in Sources */,
-				F987A2C927E60B87002FF5E4 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
